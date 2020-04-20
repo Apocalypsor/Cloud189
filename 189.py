@@ -415,7 +415,7 @@ password = ""
 if os.getenv('USERNAME'):
     username = os.getenv('USERNAME')
 if os.getenv('PASSWORD'):
-    username = os.getenv('PASSWORD')
+    password = os.getenv('PASSWORD')
 # 登陆
 # cookie有一定有效期，建议使用前删除cookie
 login()
